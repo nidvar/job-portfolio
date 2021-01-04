@@ -24,7 +24,7 @@ class Apps extends React.Component{
                         <AppBoxes className='appboxes' title='Node-Exp-MongoDB' image={todo_list} source='https://nidvar-node-posts.herokuapp.com/' />
                         <AppBoxes className='appboxes' title='Online Chatroom' image={chatroom} source='https://nidvar.github.io/chatbox/' />
                         <AppBoxes className='appboxes' title='Games' image={games} source='https://nidvar.github.io/games/' />
-                        <AppBoxes className='appboxes' title='Weather App' image={weather} source='https://nidvar.github.io/weather/' />
+                        <AppBoxes className='appboxes' title='Weather App' image={weather} source='http://nidvar-weather.surge.sh/' />
                         <AppBoxes className='appboxes' title='Find Images' image={search} source='https://nidvar.github.io/searchimage/' />
                         <AppBoxes className='appboxes' title='Typing Test' image={typingtest} source='https://nidvar.github.io/typingtest/' />
                         <AppBoxes className='appboxes' title='Youtube Clone' image={youtube} source='https://ayoutubeclone.netlify.app/' />
