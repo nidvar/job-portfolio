@@ -20,15 +20,15 @@ class Apps extends React.Component{
                 <div className='Justapps'>
                     <h2 id='appTitle'>Apps</h2>
                     <div className='Justappsflex'>
+                        <AppBoxes className='appboxes' title='React-Redux' image={scrap} source='https://nidvar-redux.netlify.app/' />
+                        <AppBoxes className='appboxes' title='Node-Exp-MongoDB' image={todo_list} source='https://nidvar-node-posts.herokuapp.com/' />
                         <AppBoxes className='appboxes' title='Online Chatroom' image={chatroom} source='https://nidvar.github.io/chatbox/' />
-                        <AppBoxes className='appboxes' title='Notes' image={todo_list} source='https://nidvar.github.io/landing/' />
                         <AppBoxes className='appboxes' title='Games' image={games} source='https://nidvar.github.io/games/' />
                         <AppBoxes className='appboxes' title='Weather App' image={weather} source='https://nidvar.github.io/weather/' />
                         <AppBoxes className='appboxes' title='Find Images' image={search} source='https://nidvar.github.io/searchimage/' />
                         <AppBoxes className='appboxes' title='Typing Test' image={typingtest} source='https://nidvar.github.io/typingtest/' />
                         <AppBoxes className='appboxes' title='Youtube Clone' image={youtube} source='https://ayoutubeclone.netlify.app/' />
-                        <AppBoxes className='appboxes' title='Recipe Finder' image={recipe} source='https://nidvar.github.io/recipe/' />
-                        <AppBoxes className='appboxes' title='Scrap / Mini' image={scrap} source='https://nidvar.github.io/miniapps/' />
+                        <AppBoxes className='appboxes' title='Recipe Finder' image={recipe} source='https://nidvar.github.io/recipe/' /> 
                     </div>
                 </div>   
             </div>
